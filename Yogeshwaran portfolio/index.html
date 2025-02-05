@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta tag -->
+    <meta  name="title" content="Yogeshwaran portfolio -Software developer">
+    <title>Yogeshwaran E - Portfolio</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/images/y-logo.svg" type="image/x-icon">
+
+    <!-- google-font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Open+Sans:wght@400;500&display=swap"
+  rel="stylesheet">
+
+  <!-- material icon -->
+  <link rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+<!-- font-awesome -->
+
+<script src="https://kit.fontawesome.com/1b556b3d1e.js" crossorigin="anonymous"></script>
+
+<!-- custom css link -->
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+
+    <div id="loading-container">
+        <div id="loading-bar"></div>
+      </div>
+      <div id="portfolio-container" style="display: none;">
+       
+      </div>
+
+
+    <!-- top bar  -->
+
+    <header class="topbar">
+        <a href="" class="logo"></a>
+
+        <button class="icon-btn theme-btn" data-theme-btn>
+            <span class="material-symbols-outlined dark" aria-hidden="true"> dark_mode </span>
+
+            <span class="material-symbols-outlined light" aria-hidden="true"> light_mode </span>
+
+            <div class="state-layer"></div>
+        </button>
+    </header>
+
+
+    <!-- main -->
+
+    <main>
+        <article>
+
+            <!-- hero -->
+
+            <section class="section hero">
+                <div class="container">
+                    <figure class="hero-banner img-holder" style="--width:240; --height:240">
+
+                        <img src="./assets/images/profile.jpg" alt="Navaneethan" class="img-cover" width="240" height="240">
+
+                    </figure>
+
+                    <div class="hero-content">
+                        <!-- <span class="title-large section-subtitle">Front-End Developer</span> -->
+
+                        <span class="title-large section-subtitle">
+                            <span class="typing-animation" id="developer-title"></span>
+                          </span>
+                          
+                          
+
+
+                        <h1 class="display-small">Yogeshwaran E</h1>
+
+                        <p class="body-large section-text">
+                            Innovative Ideas leads to creation of new way in programming
+                        </p>
+
+
+                        <div class="btn-wrapper">
+                            <a href="mailto:www.yogeshwaranpersonal@gmail.com" class="chip">
+                                <span class="material-symbols-outlined" aria-hidden="true"> mail </span>
+
+                                <span class="label-large">www.yogeshwaranpersonal@gmail.com</span>
+
+                                <div class="state-layer"></div>
+                            </a>
+                            
+                            <a href="tel:9345404908" class="chip">
+                                <span class="material-symbols-outlined" aria-hidden="true"> call </span>
+
+                                
+                                <span class="label-large">9345404908</span>
+
+                                <div class="state-layer"></div>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </section>
+
+
+            <!-- main content -->
+
+            <div class="article">
+                <div class="about-card">
+                    <h2 class="card-title title-medium">About</h2>
+
+                    <p class="body-medium card-text">
+                        I am a passionate software developer with a strong foundation in Python, MySQL, Data Structures & Algorithms, and Web Development. I enjoy solving complex problems and building efficient solutions through coding and database management.
+                        <br><br>
+
+                        I have worked on projects like Food Ordering System and Image Dehazing Using OpenCV, which have strengthened my skills in backend development, data handling, and real-time processing. Additionally, my certifications in Python for Data Science (IBM SkillsBuild), Data Analytics with Python, and The Joy of Computing Using Python have enhanced my analytical and programming capabilities.
+                                      <br><br>
+
+                                      I am always eager to learn new technologies and collaborate on innovative projects. Beyond coding, I enjoy cooking, which helps me bring creativity and precision into my work.
+                    </p>
+
+                    <ul class="about-list">
+                        <li class="list-item">
+                            <span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
+
+                            <a href="#"><span class="label-medium">Chennai, India</span></a>
+                        </li>
+
+
+
+                        <li class="list-item">
+
+                           <br> <i class="fa fa-github" aria-hidden="true"></i> <br>
+                            <!-- <span class="material-symbols-outlined" aria-hidden="true"> linked_in </span> -->
+                            <a href="https://github.com/yogeshcodehub" target="_blank"><span class="label-medium">yogeshcodehub - GitHub</span></a>
+                        </li>
+
+                        <li class="list-item">
+
+                            <br> <i class="fa fa-linkedin" aria-hidden="true"></i> <br>
+                            <!-- <span class="material-symbols-outlined" aria-hidden="true"> link </span> -->
+                            <a href="https://www.linkedin.com/in/yogeshwaran-e/" target="_blank"><span class="label-medium">yogeshwaran-e - LinkedIn</span></a>
+                        </li>
+
+                        
+                    </ul>
+                </div>
+
+                <div>
+
+
+                    <!-- primary tabs -->
+
+                    <div class="primary-tabs">
+                        <button class="tab-btn active" data-tab-btn="project">
+
+                            <span class="tab-text title-small">Projects</span>
+
+                            <div class="state-layer"></div>
+
+                        </button>
+
+
+                        <button class="tab-btn" data-tab-btn="resume">
+
+                            <span class="tab-text title-small">Odyssey</span>
+
+                            <div class="state-layer"></div>
+
+                        </button>
+
+                        <button class="tab-btn" data-tab-btn="contact">
+
+                            <span class="tab-text title-small">Contact</span>
+
+                            <div class="state-layer"></div>
+
+                        </button>
+
+                        
+                    </div>
+
+
+                    <!-- project -->
+
+                    <section class="section tab-content active " data-tab-content="project">
+                        <div class="container">
+                            <div class="project-list">
+                                
+                                <!-- Image Dehazing -->
+
+                                <div class="card">
+                                    <figure class="card-banner img-holder" style="--width:334; --height:180">
+                                        <img src="./assets/images/image dehaze.png" alt="image dehaze" class="img-cover" width="334" height="180">
+                                    </figure>
+
+                                    <div class="card-content">
+                                        <span class="label-large card-subtitle">Minor project</span>
+                                        <h3 class="title-large card-title">Image Dehaze using Dark Channel Prior Algorithms</h3>
+                                        
+
+                                       
+                                    </div>
+                                    <a href="#" class="state-layer"></a>
+                                </div>
+
+                                 <div class="project-description">
+                                    <p>Image Dehazing : Developed a robust dehazing algorithm leveraging the Dark Channel Prior to enhance visibility and restore obscured details in hazy images, significantly improving visual quality. Implemented advanced techniques for haze density estimation,transmission map refinement, enabling real-time processing for applications in computer vision, autonomous vehicles, and aerial imaging.</p>
+                                   <div class="project-viewer">
+                                    <a href="https://github.com/yogeshcodehub/Image-dehaze-project" target="_blank">view code</a>
+                                    
+                                   </div>
+                                </div>
+                                
+
+                                <!-- food order management system -->
+
+                                <div class="card">
+                                    <figure class="card-banner img-holder" style="--width:334; --height:180">
+                                        <img src="./assets/images/order management system.png" alt="order management" class="img-cover" width="334" height="180">
+                                    </figure>
+
+                                    <div class="card-content">
+                                        <span class="label-large card-subtitle">Mini project</span>
+                                        <h3 class="title-large card-title">Food order management system </h3>
+                                        
+
+                                       
+                                    </div>
+
+                                    <a href="#" class="state-layer"></a>
+                                </div>
+                                <div class="project-description">
+                                    <p>Developed a Food Ordering System using Python and MySQL, enabling efficient management of customers, employees, food items and orders.The system features a user-friendly interface with seamless database integration,ensuring real-time data handling and smooth transaction. By implementing CRUD operations, I demonstrated strong problem-solving skills and backend development expertise, optimizing system efficiency and reliability.</p>
+                                   <div class="project-viewer">
+                                    <a href="https://github.com/yogeshcodehub/food-booking-system" target="_blank">view code</a>
+                                    
+                                   </div>
+                                </div>
+
+                                <!-- portfolio -->
+
+                                <div class="card">
+                                    <figure class="card-banner img-holder" style="--width:334; --height:180">
+                                        <img src="./assets/images/portfolio.png" alt="portfolio" class="img-cover" width="334" height="180">
+                                    </figure>
+
+                                    <div class="card-content">
+                                        <span class="label-large card-subtitle">My Website</span>
+                                        <h3 class="title-large card-title">personal Portfolio</h3>
+                                       
+
+                                       
+                                    </div>
+
+                                    <a href="#" class="state-layer"></a>
+                                </div>
+
+                                <div class="project-description">
+                                    <p>Designed and developed a personal portfolio website using HTML and CSS to showcase my projects, skills, and achievements in a visually appealing layout. The website features a responsive and interactive design, ensuring a seamless user experience across different devices. With clean and structured code, I optimized performance and accessibility for better engagement and usability.</p>
+                                   <div class="project-viewer">
+                                    <a href="https://github.com/yogeshcodehub/my-website" target="_blank">view code</a>
+                                    
+                                   </div>
+                                </div>
+
+                                
+
+                            </div>
+
+                            
+                        </div>
+                    </section>
+
+
+
+
+
+                    <!-- resume -->
+
+                    <section class="section tab-content resume-tab" data-tab-content="resume">
+                        <div class="container">
+                            <h2 class="section-title title-small">Personalisation</h2>
+
+                            <ul class="list">
+                                <li class="resume-item">
+                                    <div class="resume-card">
+                                      
+
+                                       <span class="body-medium card-text">As a tech enthusiast and problem solver, I am deeply passionate about crafting efficient and intelligent solutions that bridge the gap between data, development, and innovation. My journey in Python, MySQL, and Data Structures & Algorithms fuels my drive to tackle complex challenges with precision and creativity.Collaboration is at the heart of my learning—engaging with like-minded innovators, embracing new technologies, and turning lines of code into impactful solutions. Beyond the digital world, I find creativity in cooking, where precision and experimentation blend seamlessly just like in coding! </span>
+
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <hr><br>
+
+                            <!-- Education -->
+                            <h2 class="section-title title-small">Education</h2>
+
+                            <ul class="list">
+                                
+                                <li class="resume-item">
+                                    <div class="resume-card">
+                                        <p class="body-large">
+                                            Bachelor of Engineering in Electronics and Computer Engineering, SRMIST,Ramapuram
+                                        </p>
+                                        <p class="body-medium">
+                                            Maintained a strong academic record, focusing on core engineering principles and problem-solving.
+                                        </p>
+                                        <div class="edu-detail">
+                                            <span class="label-medium card-subtitle">2021 - 2025</span>
+                                            <span class="label-medium card-subtitle">GPA : 8.6/10</span>
+                                            <span class="label-medium card-subtitle">Percentage : 86%</span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="resume-item">
+                                    <div class="resume-card">
+                                        <p class="body-large">
+                                            Higher Secondary Education: Sri Divya Chaitanya School
+                                        </p>
+                                        <p class="body-medium">
+                                            Excelled in a rigorous science and mathematics-focused curriculum during higher secondary education.
+                                        </p>
+                                       
+                                        <div class="edu-detail">
+                                            <span class="label-medium card-subtitle">2019 - 2021</span>
+                                            <span class="label-medium card-subtitle">MARKS : 507/600</span>
+                                            <span class="label-medium card-subtitle">Percentage : 84.5%</span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="resume-item">
+                                    <div class="resume-card">
+                                        <p class="body-large">
+                                            Secondary Education: Poorna Vidyalaya School 
+                                        </p>
+                                        <p class="body-medium">
+                                            Surpassed all academic expectations in a challenging curriculum during my 10th standard education.
+                                        </p>
+                                       
+                                        <div class="edu-detail">
+                                            <span class="label-medium card-subtitle">2018 - 2019</span>
+                                            <span class="label-medium card-subtitle">MARKS : 407/500</span>
+                                            <span class="label-medium card-subtitle">Percentage : 81.4%</span>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                
+                            </ul>
+
+                            <hr><br>
+
+
+                            <!-- skills and technologies -->
+                            
+                            <h2 class="section-title title-large">Skills and Technologies</h2>
+
+                            <ul class="resume-bottom-list">
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/python-logo.svg" alt="HTML5" class="icon" width="28" height="28" loading="lazy">
+                                    <span class="label-medium">Python</span>
+                                </li>
+
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/sql-database.svg" alt="CSS3" class="icon" width="28" height="28" loading="lazy">
+                                    <span class="label-medium">MySQL</span>
+                                </li>
+
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/html5.svg" alt="Bootstrap" class="icon" width="28" height="28" loading="lazy">
+                                    <span class="label-medium">HTML5</span>
+                                </li>
+
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/css3.svg" alt="Javascript" class="icon" width="28" height="28" loading="lazy">
+                                    <span class="label-medium">CSS3</span>
+                                </li>
+
+                                <li class="resume-bottom-item">
+                                    <img src="./assets/images/github.svg" alt="Git" class="icon" width="28" height="28" loading="lazy">
+                                    <span class="label-medium">GitHub</span>
+                                </li>
+                                
+                            </ul>
+
+
+
+                        </div>
+                    </section>
+
+                    <!--  contact form -->
+
+                    <section class="section tab-content contact-tab" data-tab-content="contact">
+
+                        <div class="container">
+                          <div class="contact-info">
+                            <h4 class="section-title title-small">
+                                Contact Info
+                            </h4>
+
+                            <ul class="contact-info-list">
+                                <li class="contact-info-item">
+                                    <div class="icon-box">
+                                        <span class="material-symbols-outlined" aria-hidden="true"> mail </span>
+                                    </div>
+
+                                    <div class="info-content">
+                                        <p class="label-small info-title">Mail </p>
+                                        <a href="mailto:www.yogeshwaranpersonal@gmail.com" class="label-small info-text">www.yogeshwaranpersonal@gmail.com</a>
+                                        
+                                    </div>
+                                </li>
+
+                                <li class="contact-info-item">
+                                    <div class="icon-box">
+                                        <span class="material-symbols-outlined" aria-hidden="true"> call </span>
+                                    </div>
+
+                                    <div class="info-content">
+                                        <p class="label-small info-title">Contact Me</p>
+                                        <a href="tel:9345404908" class="label-small info-text">9345404908</a>
+                                        
+                                    </div>
+                                </li>
+
+                                <li class="contact-info-item">
+                                    <div class="icon-box">
+                                        <span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
+                                    </div>
+
+                                    <div class="info-content">
+                                        <p class="label-small info-title">Address</p>
+                                        <a href="#" class="label-small info-text">Chennai, India</a>
+                                    </div>
+                                </li>
+                            </ul>
+
+
+                            <!-- social links -->
+                            <h4 class="title-small">Social Info</h4>
+
+                            <div class="social-list">
+                                <a href="https://www.instagram.com/yogeshwaran_ig/" target="_blank" class="social-item">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_66_1657)">
+                                          <mask id="mask0_66_1657" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0"
+                                            width="24" height="24">
+                                            <path d="M0 7.05719e-05H23.9999V24H0V7.05719e-05Z" fill="white" />
+                                          </mask>
+                                          <g mask="url(#mask0_66_1657)">
+                                            <path
+                                              d="M23.062 12C23.0596 12.9866 23.0485 13.9731 23.035 14.9596C23.0187 16.1498 23.0003 17.3405 22.7018 18.5103C22.3888 19.7371 21.7715 20.795 20.811 21.5783C19.7989 22.4036 18.5755 22.8375 17.2552 22.9178C15.5039 23.0243 13.7519 23.0664 12 23.0622C10.248 23.0664 8.496 23.0243 6.7448 22.9178C5.42443 22.8375 4.20109 22.4036 3.18897 21.5783C2.2285 20.795 1.61116 19.7371 1.29813 18.5103C0.999629 17.3405 0.981255 16.1498 0.964989 14.9596C0.951489 13.9731 0.940285 12.9866 0.937988 12C0.940285 11.0135 0.951489 10.0269 0.964989 9.04045C0.981255 7.85025 0.999629 6.65954 1.29813 5.48973C1.61116 4.26301 2.2285 3.20505 3.18897 2.42182C4.20109 1.59644 5.42443 1.16262 6.7448 1.08232C8.496 0.97582 10.248 0.933726 12 0.937851C13.7519 0.933726 15.5039 0.97582 17.2552 1.08232C18.5755 1.16262 19.7989 1.59644 20.811 2.42182C21.7715 3.20505 22.3888 4.26301 22.7018 5.48973C23.0003 6.65954 23.0187 7.85025 23.035 9.04045C23.0485 10.0269 23.0596 11.0135 23.062 12Z"
+                                              style="stroke: var(--on-surface-variant)" stroke-width="1.5" stroke-miterlimit="10" />
+                                            <path
+                                              d="M16.875 12C16.875 14.7183 14.6714 16.9219 11.9531 16.9219C9.23484 16.9219 7.03125 14.7183 7.03125 12C7.03125 9.28174 9.23484 7.07815 11.9531 7.07815C14.6714 7.07815 16.875 9.28174 16.875 12Z"
+                                              style="stroke: var(--on-surface-variant)" stroke-width="1.5" stroke-miterlimit="10" />
+                                            <path
+                                              d="M19.875 5.67188C19.875 6.4485 19.2454 7.07812 18.4687 7.07812C17.6921 7.07812 17.0625 6.4485 17.0625 5.67188C17.0625 4.89526 17.6921 4.26563 18.4687 4.26563C19.2454 4.26563 19.875 4.89526 19.875 5.67188Z"
+                                              style="fill: var(--on-surface-variant)" />
+                                          </g>
+                                        </g>
+                                        <defs>
+                                          <clipPath id="clip0_66_1657">
+                                            <rect width="24" height="24" fill="white" />
+                                          </clipPath>
+                                        </defs>
+                                      </svg>
+                                </a>
+                                
+                                <a href="https://github.com/yogeshcodehub" target="_blank" class="social-item">
+                                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_65_801)">
+                                        <path d="M14 0.583374C6.265 0.583374 0 6.74337 0 14.3407C0 20.4202 4.011 25.5757 9.5725 27.3934C10.2725 27.5229 10.5292 27.097 10.5292 26.7319C10.5292 26.4052 10.5175 25.5395 10.5117 24.3927C6.61733 25.2222 5.796 22.547 5.796 22.547C5.159 20.9592 4.2385 20.5345 4.2385 20.5345C2.97033 19.6817 4.3365 19.6992 4.3365 19.6992C5.74233 19.7949 6.48083 21.1167 6.48083 21.1167C7.72917 23.2202 9.758 22.6124 10.5583 22.2612C10.6843 21.371 11.0448 20.7655 11.445 20.4214C8.33583 20.0772 5.068 18.8942 5.068 13.6232C5.068 12.1217 5.6105 10.8944 6.50883 9.93187C6.35133 9.58421 5.87883 8.18537 6.63133 6.29071C6.63133 6.29071 7.80383 5.92204 10.4813 7.70121C11.6013 7.39554 12.7913 7.24387 13.9813 7.23687C15.1713 7.24387 16.3613 7.39554 17.4813 7.70121C20.1413 5.92204 21.3138 6.29071 21.3138 6.29071C22.0663 8.18537 21.5938 9.58421 21.4538 9.93187C22.3463 10.8944 22.8888 12.1217 22.8888 13.6232C22.8888 18.9082 19.6163 20.0714 16.5013 20.4097C16.9913 20.8227 17.4463 21.6662 17.4463 22.9554C17.4463 24.7964 17.4288 26.2757 17.4288 26.7225C17.4288 27.083 17.6738 27.5135 18.3913 27.3759C23.9925 25.5699 28 20.4109 28 14.3407C28 6.74337 21.7315 0.583374 14 0.583374Z" fill="#333333"/>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0_65_801">
+                                        <rect width="28" height="28" fill="white"/>
+                                        </clipPath>
+                                        </defs>
+                                        </svg>
+                                        
+                                </a>
+
+
+                                <a href="https://www.linkedin.com/in/yogeshwaran-e/" target="_blank" class="social-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="26" viewBox="0 0 24 24"><path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77Z"/></svg>
+                                        
+                                </a>
+
+                                        
+                                </a>
+
+                            </div>
+
+                          </div> 
+                          
+                          
+                          <!-- contact--form -->
+                            <div  class="contact-form">
+                                
+                                <h3 class="title-large">Let's Work Together</h3>
+
+                                
+
+                                <form method="post" class="input-wrapper">
+                                <input type="text" class="input-field" name="name" placeholder="Name*" required>
+                                <input type="email" class="input-field" name="email" placeholder="Email*" required>
+                                <input type="text" class="input-field" name="subject" placeholder="Subject*" required>
+
+                                <textarea name="message" class="textarea" placeholder="Message*"></textarea>
+
+                                
+
+                                    <a href="mailto:www.yogeshwaranpersonal@gmail.com" class="btn" id="send-button" type="submit">
+                                        <span class="label-large">Send Message</span>
+
+                                    <div class="state-layer"></div>
+
+                                    </a>
+                                </form>
+                            </div>
+
+
+                        </div>
+
+                    </section>
+                    </section>
+
+
+                </div>
+
+
+
+
+            </div>
+
+        </article>
+    </main>
+
+
+
+    <!-- footer -->
+
+    <footer class="footer">
+        <div class="container">
+
+            <li class="list">
+                
+            <a href="https://drive.google.com/file/d/1jp47WgLjQ0sWjjwpbj4R5up0bxyvV3ME/view?usp=sharing" class="body-medium" target="_blank">Unlock My Resume</a>
+            <span class="material-symbols-outlined" aria-hidden="true"> <span class="material-symbols-outlined">
+                exit_to_app
+                </span> </span>
+                
+            </li>
+        </div>
+    </footer>
+
+    
+<!-- custom js link -->
+<script src="./js/script.js"></script>
+
+
+
+
+</body>
+</html>
